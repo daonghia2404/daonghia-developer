@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keyword" content="frontend, front-end, front, end, cv, dao vuong nghia, dao nghia, nghia, hire">
+    <meta property="description" content="About Dao Vuong Nghia - Front-End Developer">
+    <title>Dao Nghia - Front-End Developer</title>
+    <!--Icon--><link rel="shortcut icon" type="image/x-icon" href="./images/logo/icon.png">
+    <!--Style CSS-->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/58c378b9ed.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="onTop"></div>
+    <!--Start Loader-->
+    <div class="loader"><span></span><span></span><span></span><span></span>
+      <div class="loading">
+        <div class="block">
+          <div class="border"></div>
+          <div class="border"></div>
+          <div class="border"></div>
+          <div class="border"></div>
+        </div>
+        <div class="loading__text vi">Đang tải</div>
+        <div class="loading__text usa">Loading</div>
+      </div>
+    </div>
+    <!--End Loader-->
+    <!--Start Language-->
+    <div class="language"><img class="vi" src="./images/vietnam-flag.png" alt="vietnamese" data-lang="vi"></div>
+    <div class="language"><img class="usa" src="./images/usa-flag.png" alt="english" data-lang="usa"></div>
+    <!--End Language-->
+    <!--Start Download PDF CV--><a class="download" href="https://www.topcv.vn/xem-cv/3750605aac3543845c4192f7bb65d9d0" target="_blank"><i class="far fa-file-pdf"></i></a>
+    <!--End Download PDF CV-->
+    <!--Start Header-->
+    <nav>
+      <div class="nav__wrap wrap dflexs">
+        <div class="nav__logo"><img src="./images/logo/logo.png" alt="daonghia" style="width: 15rem;"></div>
+        <ul class="nav__menu dflex">
+          <li class="nav__item vi"><a class="nav__link" href="#trangchủ">Trang chủ</a></li>
+          <li class="nav__item vi"><a class="nav__link" href="#vềtôi">Về tôi</a></li>
+          <li class="nav__item vi"><a class="nav__link" href="#mụctiêu">Mục tiêu</a></li>
+          <li class="nav__item vi"><a class="nav__link" href="#dựán">Dự án</a></li>
+          <li class="nav__item vi"><a class="nav__link" href="#liênhệ">Liên hệ</a></li>
+          <li class="nav__item usa"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item usa"><a class="nav__link" href="#aboutme">About Me</a></li>
+          <li class="nav__item usa"><a class="nav__link" href="#career">Career</a></li>
+          <li class="nav__item usa"><a class="nav__link" href="#projects">Projects</a></li>
+          <li class="nav__item usa"><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__social dflex"><a class="nav__link" href="https://www.instagram.com/_daonghia_/" target="_blank"><i class="fab fa-instagram"></i></a><a class="nav__link" href="https://www.facebook.com/ghostshock2000vn" target="_blank"><i class="fab fa-facebook-f"></i></a><a class="nav__link gmail" href="https://mail.google.com" target="_blank"><i class="fab fa-google"></i></a>
+          <div class="nav__button"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+    </nav>
+    <!--End Header-->
+    <!--Start Banner-->
+    <section class="banner" id="home">
+      <ul class="banner__slider">
+        <li class="banner__item dflex active">
+          <p class="hero vi">Xin chào, tôi là Đào Vương Nghĩa - Lập trình viên</p>
+          <p class="hero usa">Hello, I'm Dao Vuong Nghia - Programmer </p>
+          <h1 class="vi">Code không nói dối, nhưng chú thích thì có.</h1>
+          <h1 class="usa">Code can't lie, Comments Can</h1>
+          <div class="btn"><a class="vi" href="#about">Tìm hiểu thêm</a><a class="usa" href="#about">Read more</a></div>
+        </li>
+        <li class="banner__item dflex">
+          <p class="hero vi">Xin chào, tôi là Đào Vương Nghĩa - Front-End Developer</p>
+          <p class="hero usa">Hello, I'm Dao Vuong Nghia - Front-End Developer</p>
+          <h1 class="vi">Trước hết, giải quyết vấn đề. Sau đó, hãy viết code.</h1>
+          <h1 class="usa">First, solve the problem. Then, write the code.</h1>
+          <div class="btn"><a class="vi" href="#about">Tìm hiểu thêm</a><a class="usa" href="#about">Read more</a></div>
+        </li>
+        <li class="banner__item dflex">
+          <p class="hero vi">Xin chào, tôi là Đào Vương Nghĩa - Nhà thiết kế</p>
+          <p class="hero usa">Hello, I'm Dao Vuong Nghia - Designer</p>
+          <h1 class="vi">Bạn sẽ không tin vào code nếu bạn không tự tạo ra nó.</h1>
+          <h1 class="usa">You can't trust code that you did not create yourself.</h1>
+          <div class="btn"><a class="vi" href="#about">Tìm hiểu thêm</a><a class="usa" href="#about">Read more</a></div>
+        </li>
+      </ul>
+      <div class="banner__avatar dflex"><a class="vi" href="#contact">Liên hệ tôi</a><a class="usa" href="#contact">Contact me</a>
+        <div class="line"></div>
+        <div class="avatar"></div>
+      </div><a class="discover dflex" href="#about"><span class="vi">Tìm hiểu</span><span class="usa">Discover</span><img src="./images/icon/arrow.webp" alt="arrow"></a>
+      <div class="banner__next dflex">
+        <p><span id="currentSlide"></span><span>/</span><span id="slides"></span></p><img src="./images/icon/arrow.webp" alt="arrow">
+      </div>
+    </section>
+    <!--End Banner-->
+    <!--Start About-->
+    <section class="about" id="about">
+      <div class="about__wrap container dflexs" style="justify-content: flex-end;">
+        <div class="about__item col-lg-6 col-md-8 col-12 wow" data-animate="fadeInUp">
+          <h2 class="title dark vi">Giới thiệu</h2>
+          <h2 class="title dark usa">About me</h2>
+          <p class="vi" style="color: #000;">
+             Tôi tên là Đào Vương Nghĩa, một Front-end Developer. Tôi yêu thích code và có thể dành toàn bộ thời gian với nó. Tôi thích tìm hiểu các kiến thức về lập trình cũng như về Website. Tôi luôn luôn chủ động học hỏi và trau dồi thêm nhiều kiến thức, nhiều công nghệ mới phục vụ cho chuyên ngành cũng như phát triển bản thân...<br>Tôi có những mục tiêu rõ ràng. Trong môi trường làm việc, tôi có thái độ tốt, tinh thần trách nhiệm cao.</p>
+          <p class="usa" style="color: #000;">My name is Dao Vuong Nghia, a Front-end Developer. I love the code and can spend the whole time with it. I like to learn about programming as well as Website. I always take the initiative in learning and cultivating more knowledge, new technologies to serve the industry as well as myself ...<br>I have clear goals. In the working environment, I have good attitude, high sense of responsibility.</p>
+          <div class="btn dark"><a class="vi" href="#career">Tìm hiểu thêm</a><a class="usa" href="#career">Read more</a></div>
+        </div>
+      </div>
+    </section>
+    <!--End About-->
+    <!--Start About-->
+    <section class="about" id="career">
+      <div class="about__wrap container dflexs">
+        <div class="about__item col-lg-6 col-md-8 col-12 wow" data-animate="fadeInUp">
+          <h2 class="title vi">Mục tiêu</h2>
+          <h2 class="title usa">Career Goals</h2>
+          <p class="light vi">Muốn bản thân tiếp xúc với nhiều dự án thực tế hơn. Nâng cao kỹ năng chuyên sau về JavaScript và các Framework thịnh hành (ReactJs, VueJs). Trong tương lai, Tôi muốn học thêm NodeJs, các kiến thức về Back-end và trở thành Fullstack Developer, thăng tiến trong công việc.</p>
+          <p class="light usa">I want to expose myself to more practical projects. Improve my skills in JavaScript and popular frameworks (ReactJs, VueJs). In the future, I want to learn more NodeJs, knowledge about Back-end and become Fullstack Developer, advance in work.</p>
+          <div class="btn"><a class="vi" href="#services">Tìm hiểu thêm</a><a class="usa" href="#services">Read More</a></div>
+        </div>
+      </div>
+    </section>
+    <!--End About-->
+    <!--Start Service-->
+    <section class="service" id="services">
+      <div class="service__wrap wrap dflexs top">
+        <div class="service__intro col-md-8 col-sm-10 col-12">
+          <h3 class="title dark vi"><span class="dark" style="margin-right: 5px">Phát triển</span>Web 
+            , thiết kế cơ bản, viết tài liệu là những gì tôi có thể<span class="dark" style="margin-left: 5px">phục vụ</span>
+          </h3>
+          <h3 class="title dark usa">Web <span class="dark" style="margin-right: 5px">Developer</span>, Basic design, write document is what I can<span class="dark" style="margin-left: 5px">serve</span></h3>
+          <p class="des vi">Với kinh nghiệm luyện tập và các dự án làm ngoài, tôi tự tin vào khả năng cắt giao diện cũng như khả năng tự thiết kế ở mức cơ bản. Ngoài ra, tôi đã từng viết tài liệu cá nhân về kiến thức chuyên ngành nhằm tổng kết lại các kiến thức quan trọng cũng như giảng dạy học viên.</p>
+          <p class="des usa">With training experience and outsourcing projects, I am confident in the ability to cut the interface as well as the ability to design at a basic level. In addition, I have written personal documents about specialized knowledge to summarize important knowledge as well as teach students.</p>
+        </div>
+      </div>
+      <div class="service__wrap wrap dflexs wow" data-animate="fadeIn">
+        <div class="service__item col-lg-3 col-sm-6 col-12"><img src="./images/icon/layers.svg" alt="design">
+          <h3 class="title dark vi">Thiết kế</h3>
+          <h3 class="title dark usa">Design</h3>
+          <p class="des vi">Thiết kế logo và layout, cắt ghép ảnh và giao diện. Đạt ở mức cơ bản.</p>
+          <p class="des usa">Logo and layout design, photo collage and interface. Achieved at the basic level.</p>
+        </div>
+        <div class="service__item col-lg-3 col-sm-6 col-12"><img src="./images/icon/coding.svg" alt="convert">
+          <h3 class="title vi">Cắt giao diện</h3>
+          <h3 class="title usa">Convert PSD to HTML/CSS</h3>
+          <p class="des light vi">Thành thạo HTML / CSS / JS, sử dụng các công cụ như GulpJs, Zeplin, PugJs, SASS, OOCSS, SMACSS, BEM để tối ưu hoá tốc độ và quản lý file dễ dàng.</p>
+          <p class="des light usa">Proficient in HTML / CSS / JS, using tools like GulpJs, Zeplin, PugJs, SASS, OOCSS, SMACSS, BEM to optimize speed and manage files easily.</p>
+        </div>
+        <div class="service__item col-lg-3 col-sm-6 col-12"><img src="./images/icon/design.svg" alt="ui ux">
+          <h3 class="title dark">UI / UX</h3>
+          <p class="des vi">Hiểu biết về giao diện người dùng và trải nghiệm người dùng. Code chuẩn SEO, tối ưu hoá tốc độ tải Website.</p>
+          <p class="des usa">Understanding of user interface and user experience. SEO standard code, optimize Website loading speed.</p>
+        </div>
+        <div class="service__item col-lg-3 col-sm-6 col-12"><img src="./images/icon/leaflet.svg" alt="document">
+          <h3 class="title dark vi">Tài liệu</h3>
+          <h3 class="title dark usa">Documents</h3>
+          <p class="des vi">Sử dụng thành thạo Tin học văn phòng, viết, phân tích và quản lý các tài liệu khoa học.</p>
+          <p class="des usa">Fluency in office computing, writing, analyzing and managing scientific documents.</p>
+        </div>
+      </div>
+    </section>
+    <!--End Service-->
+    <!--Start Project-->
+    <section class="project" id="projects">
+      <h1 class="vi"> <span>Mới nhất &</span>Tuyệt nhất</h1>
+      <h1 class="usa"><span>Lastest &</span>Greatest</h1>
+      <div class="project__item dflex">
+        <div class="project__image col-md-5 col-12"><img src="./images/projects/project-1.jpg" alt="ave" style="float: right;"></div>
+        <div class="project__content col-md-7 col-12 wow" data-animate="fadeInUp">
+          <h6 class="heading">Web {13/12/2019}</h6><a class="title" href="https://daonghia2404.github.io/Ave/" target="_blank">Ave</a>
+          <p class="des vi">
+             Website về thời trang (Giao diện, hiệu ứng)<br>Số trang: 1<br>Công nghệ sử dụng: PUG / SASS / JS / GulpJS</p>
+          <p class="des usa">
+             Fashion website (Interface, Effects)<br>Page: 1<br>Technology used: PUG / SASS / JS / GulpJS</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Ave/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Ave/" target="_blank">View Project</a></div>
+        </div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__content col-lg-5 col-12 wow" style="float: right; padding-left: 10rem" data-animate="fadeInUp">
+          <h6 class="heading">Web {27/12/2019}</h6><a class="title" href="https://daonghia2404.github.io/FishHouse/" target="_blank">Fish House</a>
+          <p class="des vi">
+             Website về nhà hàng (Giao diện, hiệu ứng)<br>Số trang: 4<br>Công nghệ sử dụng: PUG / LESS / JS / GruntJs</p>
+          <p class="des usa">
+             Restaurant website (Interface, Effects)<br>Pages: 4<br>Technology used: PUG / LESS / JS / GruntJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/FishHouse/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/FishHouse/" target="_blank">View Project</a></div>
+        </div>
+        <div class="project__image col-lg-7 col-12"><img src="./images/projects/project-2.jpg" alt="fishhouse"></div>
+      </div>
+      <div class="project__item dflexs">
+        <div class="project__image col-lg-5 col-12"><img src="./images/projects/project-3.jpg" alt="tessa"></div>
+        <div class="project__content col-lg-5 col-12 wow" data-animate="fadeInUp">
+          <h6 class="heading">Web {11/02/2020}</h6><a class="title" href="https://daonghia2404.github.io/Tessa/" target="blank" style="white-space: normal">Tessa</a>
+          <p class="des vi">
+             Website cá nhân (Giao diện, hiệu ứng)<br>Số trang: 7<br>Công nghệ sử dụng: PUG / SASS / JS / GulpJs</p>
+          <p class="des usa">Personal website (Interface, Effects)<br>Pages: 7<br>Technology used: PUG / SASS / JS / GulpJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Tessa/" target="blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Tessa/" target="blank">View Projects</a></div>
+        </div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__content col-md-7 col-12 wow" style="padding-left: 15rem" data-animate="fadeInUp">
+          <h6 class="heading">Web {12/01/2020}</h6><a class="title" href="https://daonghia2404.github.io/Zeeper/" target="_blank">Zepper</a>
+          <p class="des vi">
+             Website Ứng dụng điện thoại (Giao diện, hiệu ứng)<br>Số trang: 1<br>Công nghệ sử dụng: PUG / SASS / JS / GulpJs</p>
+          <p class="des usa">
+             App Mobile Website (Interface, Effects)<br>Page: 1<br>Technology used: PUG / SASS / JS / GulpJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Zeeper/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Zeeper/" target="_blank">View Projects</a></div>
+        </div>
+        <div class="project__image col-md-5 col-12"><img src="./images/projects/project-4.jpg" alt="zeeper"></div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__image col-md-6 col-12"><img src="./images/projects/project-6.jpg" alt="sena" style="float: right;"></div>
+        <div class="project__content col-md-6 col-12 wow" data-animate="fadeInUp">
+          <h6 class="heading">Web {08/02/2020}</h6><a class="title" href="https://daonghia2404.github.io/Sena/" target="_blank">Sena</a>
+          <p class="des vi">
+             Website Lading Page (Giao diện, hiệu ứng)<br>Số trang: 1<br>Công nghệ sử dụng: PUG / SASS / JS / GulpJs</p>
+          <p class="des usa">Website Lading Page (Interface, Effects)<br>Page: 1<br>Technology used: PUG / SASS / JS / GulpJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Sena/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Sena/" target="_blank">View Project</a></div>
+        </div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__content col-lg-5 col-12 wow" style="float: right; padding-left: 20rem" data-animate="fadeInUp">
+          <h6 class="heading">Web {23/02/2020}</h6><a class="title" href="https://daonghia2404.github.io/Woodmart/" target="_blank">Woodmart</a>
+          <p class="des vi">
+             Website Bán hàng (Giao diện, hiệu ứng)<br>Số trang: 8<br>Công nghệ sử dụng: PUG / SASS / JS / GulpJs</p>
+          <p class="des usa">
+             Sales website (Interface, Effects)<br>Pages: 8<br>Technology used: PUG / SASS / JS / GulpJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Woodmart/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Woodmart/" target="_blank">View Project</a></div>
+        </div>
+        <div class="project__image col-lg-7 col-12"><img src="./images/projects/project-5.jpg" alt="woodmart"></div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__image col-md-5 col-12"><img src="./images/projects/project-7.jpg" alt="mail" style="float: right;"></div>
+        <div class="project__content col-md-7 col-12 wow" data-animate="fadeInUp">
+          <h6 class="heading">Logic {17/02/2020}</h6><a class="title" href="https://daonghia2404.github.io/Todolist/" target="_blank">To do list</a>
+          <p class="des vi">
+             To do List (Giao diện, hiệu ứng, Logic)<br>Số trang: 1<br>Công nghệ sử dụng: PUG / SASS / JS / GulpJS</p>
+          <p class="des usa">To do List (Interface, Effects, Logic)<br>Page: 1<br>Technology used: PUG / SASS / JS / GulpJS</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Todolist/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Todolist/" target="_blank">View Project</a></div>
+        </div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__content col-lg-5 col-12 wow" style="float: right; padding-left: 10rem" data-animate="fadeInUp">
+          <h6 class="heading">Web {27/12/2019}</h6><a class="title" href="https://daonghia2404.github.io/BuildFactory/" target="_blank">Build Factory</a>
+          <p class="des vi">
+             Website về xây dựng (Giao diện, hiệu ứng)<br>Số trang: 14<br>Công nghệ sử dụng: PUG / LESS / JS / GruntJs</p>
+          <p class="des usa">Building Website (Interface, Effects)<br>Pages: 14<br>Technology used: PUG / LESS / JS / GruntJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/BuildFactory/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/BuildFactory/" target="_blank">View Project</a></div>
+        </div>
+        <div class="project__image col-lg-7 col-12"><img src="./images/projects/project-8.jpg" alt="build factory"></div>
+      </div>
+      <div class="project__item dflexs">
+        <div class="project__image col-lg-5 col-12"><img src="./images/projects/project-9.jpg" alt="nurzen"></div>
+        <div class="project__content col-lg-5 col-12 wow" data-animate="fadeInUp">
+          <h6 class="heading">Web {17/01/2020}</h6><a class="title" href="https://daonghia2404.github.io/Nurzen/" target="blank" style="white-space: normal">Nurzen</a>
+          <p class="des vi">
+             Website giáo dục (Giao diện, hiệu ứng)<br>Số trang: 10<br>Công nghệ sử dụng: PUG / SASS / JS / GruntJs</p>
+          <p class="des usa">
+             Education website (Interface, Effects)<br>Pages: 10<br>Technology used: PUG / SASS / JS / GruntJs</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Nurzen/" target="blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Nurzen/" target="blank">View Project</a></div>
+        </div>
+      </div>
+      <div class="project__item dflex">
+        <div class="project__content col-md-7 col-12 wow" style="padding-left: 15rem" data-animate="fadeInUp">
+          <h6 class="heading">Web {05/01/2020}</h6><a class="title" href="https://daonghia2404.github.io/Lalvai/" target="_blank">Lalvai</a>
+          <p class="des vi">
+             Website Lading Page (Giao diện, hiệu ứng)<br>Số trang: 1<br>Công nghệ sử dụng: PUG / SASS / JS / GruntJs / jQuery</p>
+          <p class="des usa">Website Lading Page (Interface, Effects)<br>Page: 1<br>Technology used: PUG / SASS / JS / GruntJs / jQuery</p>
+          <div class="btn dark"><a class="vi" href="https://daonghia2404.github.io/Lalvai/" target="_blank">Xem thêm</a><a class="usa" href="https://daonghia2404.github.io/Lalvai/" target="_blank">View Project</a></div>
+        </div>
+        <div class="project__image col-md-5 col-12"><img src="./images/projects/project-10.jpg" alt="lalvai"></div>
+      </div>
+    </section>
+    <!--End Project-->
+    <!--Start Contact-->
+    <section class="contact dflex" id="contact">
+      <h3 class="vi">Cần một Front-End Developer ? Hãy thuê tôi</h3>
+      <h3 class="usa">Need a Front-End Developer ? Please hire me</h3>
+      <div class="btn"><a class="vi" href="#socials">Tìm hiểu</a><a class="usa" href="#socials">Hire Me</a></div>
+    </section>
+    <!--End Contact-->
+    <!--Start Social NetWork-->
+    <section class="social" id="socials">
+      <div class="social__item wow" data-social="facebook" data-animate="fadeInUp">
+        <div class="social__link"><a href="https://www.facebook.com/ghostshock2000vn" target="_blank">facebook.com/ghostshock2000vn</a>
+          <div class="line">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="social__item wow" data-social="instagram" data-animate="fadeInUp">
+        <div class="social__link"><a href="https://www.instagram.com/_daonghia_/" target="_blank">instagram.com/_daonghia_/</a>
+          <div class="line">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="social__item wow" data-social="gmail" data-animate="fadeInUp">
+        <div class="social__link"><a href="https://mail.google.com" target="_blank">daonghia2404@gmail.com</a>
+          <div class="line">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Social NetWork-->
+    <!--Start Footer-->
+    <footer>
+      <div class="footer__wrap dflexs container"><a class="onTop" href="#onTop"><i class="fas fa-angle-up"></i></a>
+        <div class="footer__item col-lg-6 wow" data-animate="fadeInUp"><img src="./images/logo/logo.png" alt="daonghia" style="width: 150px;">
+          <p class="vi">
+             "Lập trình là suy nghĩ, không phải là đánh máy !"<br>Cảm ơn đã dành thời gian tìm hiểu về tôi, nếu có câu hỏi hãy liên lạc với tôi.</p>
+          <p class="usa">"Code is thinking, not typing !"<br>Thanks for taking the time to learn about me, if you have any questions please contact me.</p>
+        </div>
+        <div class="footer__item col-lg-3 wow" data-animate="fadeInUp">
+          <h4 class="title vi">Thông tin liên hệ</h4>
+          <h4 class="title usa">Contact</h4>
+          <p>(+84)35 676 6560<br>daonghia2404@gmail.com<br>Hanoi, Vietnam</p>
+        </div>
+        <div class="footer__item col-lg-3 wow" data-animate="fadeInUp">
+          <h4 class="title vi">Mạng xã hội</h4>
+          <h4 class="title usa">Social Network</h4>
+          <p><a href="https://www.instagram.com/_daonghia_/" target="_blank">Instagram</a><br><a href="https://www.facebook.com/ghostshock2000vn" target="_blank">Facebook</a></p>
+        </div>
+        <div class="footer__item col-12 wow" data-animate="fadeInUp">
+          <p class="copyright vi">
+            Thiết kế bởi <i class="fas fa-user-tie"></i><a href="#onTop">daonghia</a>Bản quyền thuộc về tôi.</p>
+          <p class="copyright usa">
+            Design by<i class="fas fa-user-tie"></i><a href="#onTop">daonghia</a>All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer-->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
